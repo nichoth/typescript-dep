@@ -2,7 +2,7 @@
   "name": "typescript-dep",
   "version": "0.0.0",
   "scripts": {
-    "prebuild": "rimraf dist",
+    "prebuild": "rm -rf dist/*",
     "build": "tsc",
     "dev": "tsc -w",
     "test": "jest test",
