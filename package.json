@@ -6,10 +6,15 @@
   "directories": {
     "test": "test"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "prebuild": "rm -rf dist/*",
     "build": "tsc",
-    "dev": "tsc -w",
+    "start": "tsc -w",
     "test": "jest test",
     "test:watch": "jest --watch"
   },

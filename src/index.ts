@@ -1,3 +1,3 @@
-export default function example () {
-    console.log('ok')
-}
+const example = (arg:string) => console.log('example ', arg)
+
+export default example
