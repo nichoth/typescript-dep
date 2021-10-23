@@ -1,7 +1,7 @@
-// import { example } from '../src'
+import example from '../src'
 
 describe('example', () => {
   it('should do something', () => {
-    expect(true).toEqual(true)
+    expect(example('aaa')).toEqual('aaa')
   })
 })
